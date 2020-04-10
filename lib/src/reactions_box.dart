@@ -104,7 +104,7 @@ class _ReactionsBoxState extends State<ReactionsBox>
                       elevation: widget.elevation,
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(widget.radius)),
-                      child: Wrap(
+                      child: Padding(padding: EdgeInsets.all(8.0), child: Wrap(
                         children: widget.reactions
                             .map((reaction) => ReactionsBoxItem(
                                   onReactionClick: (reaction) {
@@ -116,7 +116,7 @@ class _ReactionsBoxState extends State<ReactionsBox>
                                   reaction: reaction,
                                 ))
                             .toList(),
-                      ),
+                      ),),
                     ),
                   ),
                 ),
