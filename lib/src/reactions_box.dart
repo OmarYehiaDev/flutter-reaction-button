@@ -92,7 +92,7 @@ class _ReactionsBoxState extends State<ReactionsBox>
           height: double.infinity,
           color: Colors.transparent,
           child: Stack(
-            alignment: Alignment.center,
+            alignment: Alignment.centerLeft,
             children: <Widget>[
               Positioned(
                 top: _getPosition(context),
@@ -103,8 +103,8 @@ class _ReactionsBoxState extends State<ReactionsBox>
                       color: widget.color,
                       elevation: widget.elevation,
                       shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(widget.radius)),
-                      child: Padding(padding: EdgeInsets.all(8.0), child: Wrap(
+                          borderRadius: BorderRadius.only(topRight: Radius.circular(widget.radius), bottomRight: Radius.circular(widget.radius),),),
+                      child: Padding(padding: EdgeInsets.only(left: 8.0, top: 8.0, bottom: 8.0), child: Wrap(
                         children: widget.reactions
                             .map((reaction) => ReactionsBoxItem(
                                   onReactionClick: (reaction) {
