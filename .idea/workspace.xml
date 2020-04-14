@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="80816f66-f6e8-48c4-bd9c-5330c5386b30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/flutter_reaction_button_check.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/flutter_reaction_button_check.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -34,22 +33,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/src/flutter_reaction_button_check.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1550">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/src/reactions_box.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="215">
               <caret line="94" column="43" selection-start-line="94" selection-start-column="43" selection-end-line="94" selection-end-column="43" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -77,35 +73,10 @@
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="flutter-reaction-button" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter-reaction-button" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter-reaction-button" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter-reaction-button" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter-reaction-button" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter-reaction-button" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -178,12 +149,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586555875327</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed the issue with long pressing to remove chosen rating &amp;&#10;Fixed the issue logged when you longPress to remove a selected rating">
+      <created>1586862302031</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586862302031</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.16040269" />
       <window_info id="Structure" order="1" side_tool="true" />
@@ -211,7 +188,8 @@
     <MESSAGE value="removed the onLongPress method and transferred it to the onTap" />
     <MESSAGE value="Modified the internal spacing in the card reaction pop-up" />
     <MESSAGE value="Changed the card curves to only affect the topRight and bottomRight&#10;Also changed the padding inside the card to not extend to the right of the card" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the card curves to only affect the topRight and bottomRight&#10;Also changed the padding inside the card to not extend to the right of the card" />
+    <MESSAGE value="Fixed the issue with long pressing to remove chosen rating &amp;&#10;Fixed the issue logged when you longPress to remove a selected rating" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the issue with long pressing to remove chosen rating &amp;&#10;Fixed the issue logged when you longPress to remove a selected rating" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/src/flutter_reaction_button.dart">
@@ -233,22 +211,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/reactions_box.dart">
+    <entry file="file://$PROJECT_DIR$/lib/src/flutter_reaction_button_check.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="94" column="43" selection-start-line="94" selection-start-column="43" selection-end-line="94" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1550">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/flutter_reaction_button_check.dart">
+    <entry file="file://$PROJECT_DIR$/lib/src/reactions_box.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
+        <state relative-caret-position="215">
+          <caret line="94" column="43" selection-start-line="94" selection-start-column="43" selection-end-line="94" selection-end-column="43" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
