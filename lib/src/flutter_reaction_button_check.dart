@@ -86,9 +86,9 @@ class _FlutterReactionButtonCheckState
         onTap: () {
           _onTapReactionButton(context);
         },
-    onLongPress: () {
-      _onClickReactionButton();
-    },
+        onLongPress: () {
+          _onClickReactionButton();
+        },
         child: (_selectedReaction ?? widget.reactions[0]).icon,
       );
 
@@ -103,7 +103,9 @@ class _FlutterReactionButtonCheckState
   }
 
   void _onClickReactionButton() {
-    _isChecked
+    _isChecked = !_isChecked;
+    _updateReaction(
+      _isChecked
           ? (widget.selectedReaction ?? widget.reactions[0])
           : widget.initialReaction,
     );
