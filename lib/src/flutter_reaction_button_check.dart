@@ -1,4 +1,4 @@
-// import 'dart:async';
+import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'reactions_position.dart';
@@ -62,9 +62,9 @@ class _FlutterReactionButtonCheckState
     extends State<FlutterReactionButtonCheck> {
   final GlobalKey _buttonKey = GlobalKey();
 
-  // final int _maxTick = 2;
+  final int _maxTick = 2;
 
-  // Timer _timer;
+  Timer _timer;
 
   Reaction _selectedReaction;
 
@@ -84,7 +84,7 @@ class _FlutterReactionButtonCheckState
         highlightColor: widget.highlightColor,
         splashColor: widget.splashColor,
         onTap: () {
-          _showReactionButtons(context);
+          _onTapReactionButton(context);
         },
         onLongPress: () {
           _onClickReactionButton();
@@ -92,15 +92,15 @@ class _FlutterReactionButtonCheckState
         child: (_selectedReaction ?? widget.reactions[0]).icon,
       );
 
-  // void _onTapReactionButton(BuildContext context) {
-  //   _timer = Timer.periodic(Duration(milliseconds: 100), (timer) {
-  //     if (_timer.tick >= _maxTick) {
-  //       _showReactionButtons(context);
-  //       _timer.cancel();
-  //     }
-  //     return _timer;
-  //   });
-  // }
+  void _onTapReactionButton(BuildContext context) {
+    _timer = Timer.periodic(Duration(milliseconds: 100), (timer) {
+      if (_timer.tick >= _maxTick) {
+        _showReactionButtons(context);
+        _timer.cancel();
+      }
+      return _timer;
+    });
+  }
 
   void _onClickReactionButton() {
     _isChecked = !_isChecked;
